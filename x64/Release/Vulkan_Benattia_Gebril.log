@@ -1,0 +1,31 @@
+﻿  Application.cpp
+  Camera.cpp
+  main.cpp
+  RHI.cpp
+  CommandBuffer.cpp
+  CommandPool.cpp
+  DescriptorPool.cpp
+  DescriptorSet.cpp
+  GLM: GLM_GTX_hash extension included
+  Framebuffer.cpp
+  GraphicPipeline.cpp
+  ImageView.cpp
+  IndexBuffer.cpp
+  LogicalDevice.cpp
+  PhysicalDevice.cpp
+  Surface.cpp
+  Swapchain.cpp
+  SyncObject.cpp
+  TextureImage.cpp
+  UniformBuffer.cpp
+  GLM: GLM_GTX_hash extension included
+  ValidationLayers.cpp
+  Compilation en cours...
+  VertexBuffer.cpp
+  VulkanInstance.cpp
+  Window.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 3488 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Vulkan_Benattia_Gebril.vcxproj -> C:\Users\g.benattia\Desktop\Vulkan_Benattia_Gebril\x64\Release\Vulkan_Benattia_Gebril.exe
