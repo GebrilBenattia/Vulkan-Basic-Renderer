@@ -16,10 +16,10 @@ Multi-Sampling
 
 ### While Holding Right Click
 
-W - Move Forward (Camera Front)
-S - Move Backward (Camera Back)
-A - Move Toward Left
-D - Move Toward Right
+* W - Move Forward (Camera Front)
+* S - Move Backward (Camera Back)
+* A - Move Toward Left
+* D - Move Toward Right
 
 ESCAPE - Quit the Application
 
