@@ -7,8 +7,6 @@ class RHI;
 
 class TextureImage
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

@@ -11,8 +11,6 @@ class RHI;
 
 class CommandBuffer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;
@@ -32,6 +30,4 @@ public:
     void EndSingleTimeCommands(VkCommandBuffer commandBuffer);
 
 	void CopyBufferToImage(VkBuffer buffer, VkImage image, uint32_t width, uint32_t height);
-
-	void Cleanup();
 };

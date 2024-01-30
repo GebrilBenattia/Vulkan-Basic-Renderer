@@ -20,8 +20,6 @@ class RHI;
 
 class UniformBuffer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

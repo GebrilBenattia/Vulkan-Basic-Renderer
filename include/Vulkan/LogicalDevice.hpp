@@ -7,8 +7,6 @@ class RHI;
 
 class LogicalDevice
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

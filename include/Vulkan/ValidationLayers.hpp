@@ -13,8 +13,6 @@ class RHI;
 
 class ValidationLayer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

@@ -57,7 +57,6 @@ public:
 
     glm::mat4 projection;
     glm::mat4 view;
-    glm::mat4 vp;
 
     // euler Angles
     float Yaw;

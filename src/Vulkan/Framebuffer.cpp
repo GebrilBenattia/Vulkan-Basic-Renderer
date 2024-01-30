@@ -32,7 +32,3 @@ void Framebuffer::CreateFramebuffers()
         }
     }
 }
-
-void Framebuffer::Cleanup()
-{
-}

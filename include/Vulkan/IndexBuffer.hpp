@@ -7,8 +7,6 @@ class RHI;
 
 class IndexBuffer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

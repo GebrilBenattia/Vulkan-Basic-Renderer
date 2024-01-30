@@ -7,8 +7,6 @@ class RHI;
 
 class Framebuffer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;
@@ -16,6 +14,4 @@ public:
 	Framebuffer(RHI& _RHI);
 
 	void CreateFramebuffers();
-
-	void Cleanup();
 };

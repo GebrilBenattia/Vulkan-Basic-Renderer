@@ -36,7 +36,3 @@ VkImageView ImageView::CreateImageView(VkImage image, VkFormat format, VkImageAs
 
     return imageView;
 }
-
-void ImageView::Cleanup()
-{
-}

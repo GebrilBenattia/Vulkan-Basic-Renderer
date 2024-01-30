@@ -7,8 +7,6 @@ class RHI;
 
 class GraphicPipeline
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

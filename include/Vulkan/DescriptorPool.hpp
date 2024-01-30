@@ -7,8 +7,6 @@ class RHI;
 
 class DescriptorPool
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

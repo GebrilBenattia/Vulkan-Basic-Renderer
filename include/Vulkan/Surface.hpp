@@ -7,8 +7,6 @@ class RHI;
 
 class Surface
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

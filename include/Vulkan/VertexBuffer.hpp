@@ -7,8 +7,6 @@ class RHI;
 
 class VertexBuffer
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

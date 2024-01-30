@@ -19,8 +19,6 @@ class RHI;
 
 class DescriptorSet
 {
-private:
-
 public:
 
     RHI& RHIInstance;
@@ -28,6 +26,4 @@ public:
     DescriptorSet(RHI& _RHI);
 
 	void CreateDescriptorSets();
-
-	void Cleanup();
 };

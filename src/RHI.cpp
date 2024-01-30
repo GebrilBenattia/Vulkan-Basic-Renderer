@@ -26,7 +26,7 @@ void RHI::DrawFrame()
     // Only reset the fence if we are submitting work
     vkResetFences(RHILogicalDevice.device, 1, &InFlightFences[CurrentFrame]);
 
-    vkResetCommandBuffer(CommandBuffers[CurrentFrame], /*VkCommandBufferResetFlagBits*/ 0);
+    vkResetCommandBuffer(CommandBuffers[CurrentFrame], 0);
 
     RHICommandBuffer.RecordCommandBuffer(CommandBuffers[CurrentFrame], ImageIndex);
 
@@ -473,6 +473,5 @@ void RHI::Cleanup()
     RHISurface.Cleanup();
     RHIInstance.Cleanup();
 
-    glfwDestroyWindow(AppWindow.window);
-    glfwTerminate();
+    AppWindow.Cleanup();
 }

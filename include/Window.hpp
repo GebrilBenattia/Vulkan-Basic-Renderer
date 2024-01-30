@@ -7,13 +7,12 @@ class Application;
 
 class Window
 {
-private:
-
 public:
 
 	GLFWwindow* window = nullptr;
 
 	Window();
 
+	void Cleanup();
 };
 

@@ -9,8 +9,6 @@ class RHI;
 
 class VulkanInstance
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

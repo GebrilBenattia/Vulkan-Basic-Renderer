@@ -18,3 +18,9 @@ Window::Window()
     glfwSetWindowUserPointer(window, this);
     glfwSetFramebufferSizeCallback(window, framebufferResizeCallback);
 }
+
+void Window::Cleanup()
+{
+    glfwDestroyWindow(window);
+    glfwTerminate();
+}

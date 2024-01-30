@@ -36,8 +36,8 @@ void UniformBuffer::UpdateUniformBuffer(uint32_t _CurrentImage)
 
     UniformBufferObject Ubo{};
     Ubo.Model = glm::rotate(glm::mat4(1.0f), Time * glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f)) * glm::rotate(glm::mat4(1.0f), glm::radians(-90.0f), glm::vec3(1.0f, 0.0f, 0.0f)) * glm::rotate(glm::mat4(1.0f), glm::radians(-90.0f), glm::vec3(0.0f, 0.0f, 1.0f));;
-    Ubo.View = RHIInstance.Cam.GetViewMatrix(); //glm::lookAt(glm::vec3(2.0f, 2.0f, 2.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-    Ubo.Proj = RHIInstance.Cam.projection; //glm::perspective(glm::radians(45.0f), RHIInstance.RHISwapchain.SwapChainExtent.width / (float)RHIInstance.RHISwapchain.SwapChainExtent.height, 0.1f, 10.0f);
+    Ubo.View = RHIInstance.Cam.view;
+    Ubo.Proj = RHIInstance.Cam.projection;
     Ubo.Proj[1][1] *= -1;
 
     PointLight Light{};

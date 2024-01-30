@@ -180,7 +180,3 @@ void CommandBuffer::CopyBufferToImage(VkBuffer _Buffer, VkImage _Image, uint32_t
 
     EndSingleTimeCommands(CommandBuffer);
 }
-
-void CommandBuffer::Cleanup()
-{
-}

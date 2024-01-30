@@ -7,8 +7,6 @@ class RHI;
 
 class CommandPool
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

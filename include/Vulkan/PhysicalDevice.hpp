@@ -26,8 +26,6 @@ struct QueueFamilyIndices
 
 class PhysicalDevice
 {
-private:
-
 public:
 
 	RHI& RHIInstance;
@@ -59,6 +57,4 @@ public:
 	VkFormat FindSupportedFormat(const std::vector<VkFormat>& _Candidates, VkImageTiling _Tiling, VkFormatFeatureFlags _Features);
 
 	uint32_t FindMemoryType(uint32_t _TypeFilter, VkMemoryPropertyFlags _Properties);
-
-	void Cleanup();
 };

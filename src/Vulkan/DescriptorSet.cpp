@@ -66,7 +66,3 @@ void DescriptorSet::CreateDescriptorSets()
         vkUpdateDescriptorSets(RHIInstance.RHILogicalDevice.device, static_cast<uint32_t>(descriptorWrites.size()), descriptorWrites.data(), 0, nullptr);
     }
 }
-
-void DescriptorSet::Cleanup()
-{
-}

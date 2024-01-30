@@ -162,7 +162,3 @@ uint32_t PhysicalDevice::FindMemoryType(uint32_t typeFilter, VkMemoryPropertyFla
 
     throw std::runtime_error("failed to find suitable memory type!");
 }
-
-void PhysicalDevice::Cleanup()
-{
-}

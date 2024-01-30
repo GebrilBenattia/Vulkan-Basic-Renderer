@@ -4,8 +4,6 @@
 
 class Application
 {
-private:
-
 public:
 
 	RHI AppRHI;

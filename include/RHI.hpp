@@ -100,9 +100,6 @@ const std::string TEXTURE_PATH = "assets/textures/viking_room.png";
 
 class RHI
 {
-private:
-
-
 public:
 
     static Camera Cam;

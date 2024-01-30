@@ -99,5 +99,4 @@ void Camera::Update()
 {
     view = GetViewMatrix();
     projection = glm::perspective(Zoom, 800.f / 600.f, 0.1f, 1000.f);
-    vp = glm::mat4(projection * view);
 }

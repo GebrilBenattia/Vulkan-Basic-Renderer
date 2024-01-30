@@ -16,8 +16,6 @@ class RHI;
 
 class Swapchain
 {
-private:
-
 public:
 
 	RHI& RHIInstance;

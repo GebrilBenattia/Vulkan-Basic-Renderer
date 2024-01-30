@@ -7,8 +7,6 @@ class RHI;
 
 class SyncObject
 {
-private:
-
 public:
 
 	RHI& RHIInstance;
