@@ -7,10 +7,10 @@ https://vulkan-tutorial.com/
 
 ## Implemented Features
 
-Model Loading
-Texture Sampling
-Anti-Aliasing MSAA
-Multi-Sampling
+* Model Loading
+* Texture Sampling
+* Anti-Aliasing MSAA
+* Multi-Sampling
 
 ## Inputs
 
@@ -21,9 +21,9 @@ Multi-Sampling
 * A - Move Toward Left
 * D - Move Toward Right
 
-ESCAPE - Quit the Application
+* ESCAPE - Quit the Application
 
-Mouse Scroll Wheel - Zoom In / Zoom Out
+* Mouse Scroll Wheel - Zoom In / Zoom Out
 
 ## Output Screenshot
 
